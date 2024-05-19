@@ -35,7 +35,7 @@ console.log('Frontend build path:', frontendBuildPath);
 // Log the contents of the frontend build directory
 fs.readdir(frontendBuildPath, (err, files) => {
   if (err) {
-    console.error('Error reading directory:', err);
+    console.error('Error in reading directory:', err);
   } else {
     console.log('Files in frontend build directory:', files);
   }
